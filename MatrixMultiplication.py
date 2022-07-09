@@ -26,5 +26,5 @@ for i in range(0,4):
 for i in range(0,4):
     for j in range(0,4):
         for k in range(0,4):
-            C[i][j] += A[i][j] * B[i][k]
+            C[i][j] += A[i][k] * B[k][j]
 print(C)
